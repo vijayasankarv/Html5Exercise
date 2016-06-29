@@ -1,0 +1,220 @@
+header{
+
+  position:fixed;
+  background-color: white;
+  height:100px;
+  width:100%;
+  border-bottom: 10px;
+  margin-bottom: 50%;
+  z-index: 1;
+}
+
+nav
+{
+  color: rgb(128,0,128);
+  font-size: 150%;
+  text-align :right;
+  padding: 16px 0 16px 0;
+  font-family: google;
+}
+
+nav>li{
+  display: inline-block;;
+  padding: 20px 20px 0 20px;
+
+}
+
+nav>li>a{
+  text-decoration: none;
+  color:#0000FF;
+
+}
+nav>li>a:hover{
+  color: black;
+
+}
+
+nav>ul>li>a{
+
+  color:rgb(128,0,128);
+  text-decoration: none;
+  font-family: google;
+  font-size: 150%;
+}
+
+.logo{
+  text-decoration: none;
+  color: rgb(128,0,128);
+  font-family: google;
+  font-size: 400%;
+  font-weight: bold;
+  float:  left;
+  padding-left: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  color:rgb(128,0,128);
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  color: rgb(128,0,128);
+  font-size: 150%;
+  font-family: google;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  text-align: justify;
+  background-color:rgb(128,0,128);
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+}
+.dropdown-content a{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover{
+color: black;
+}
+
+.dropdown:hover
+{
+  color: black;
+}
+
+.banner{
+  margin-top: 100px;
+  margin-left: 300px;
+  display:block;
+}
+.banner> .banner-image{
+  width: 75%;
+  display: block;
+  margin-left: 100px;
+}
+
+.primary {
+
+  margin-top: 40px;
+  background-color: none;
+  text-align: justify;
+  padding-bottom: 0px;
+  position: relative;
+  display:inline-block;
+  width:80px;
+  margin-left: 0px;
+}
+.grid_4>h2{
+
+ background-color: rgb(128,0,128);
+ text-align: center;
+ position:relative;
+ color:white;
+
+}
+.grid_4>p{
+
+  padding-top: 0px;
+  text-align: center;
+  font-family: google;
+  font-size: 120%;
+}
+
+.center{
+
+  float: center;
+
+}
+
+.grid_6>h2{
+
+  background-color: rgb(128,0,128);
+  text-align: left;
+  position:relative;
+  color:white;
+
+}
+.grid_6{
+
+  background-color: rgb(128,0,128);
+  margin-bottom: 10px;
+  font-family: google;
+  font-size: 120%;
+  height:130px;
+  color:white;
+  margin-left: 3px;
+  margin-right: 17px;
+
+}
+
+
+footer{
+
+  color:white;
+  background-color: rgb(64,0,64);
+  text-align: center;
+  padding_top:0px;
+  height:140px;
+}
+
+
+footer>ul>li{
+  list-style-type: none;
+  display: inline;
+  float:left;
+}
+
+.football{
+  margin-top: 200px;
+  margin-left: 390px;
+  display:block;;
+  position:relative;
+  float:none;
+}
+.football> .football-image{
+  display:block;
+  margin-left: 0px;
+  margin-right:20px;
+  width:200%;
+  padding-bottom: 20px;
+}
+
+footer>.img{
+
+height:10px;
+
+}
+
+.football>.football-des>{
+
+  width:300px;
+  position:absolute;
+  padding-left:10px;
+  margin-right: 20px;
+
+}
+
+.grid_4>p {
+    padding-top: 0px;
+    text-align: left;
+    font-family: google;
+    font-size: 120%;
+}
+
+.container_12>.grid_6{
+
+    display: inline;
+    float: left;
+    margin-left: 3px;
+    margin-right: 17px;
+
+}

@@ -1,0 +1,145 @@
+body{
+  background-color:white;
+  margin:0;
+  padding :0;
+  top: 0;
+
+}
+  .nav
+  {
+    data-position:fixed;
+    top: 0;
+    color: #28d4ee;
+    font-size: 150%;
+    text-align :right;
+    padding: 16px 0 16px 0;
+    font-family: google;
+  }
+
+  .nav>li{
+    display: inline-block;;
+    padding: 20px 20px 0 20px;
+
+  }
+
+  .nav>li>a{
+    text-decoration: none;
+    color:#28d4ee;
+
+  }
+  .nav>li>a:hover{
+    color: black;
+
+  }
+  .logo{
+    text-decoration: none;
+    color: #28d4ee;
+    font-family: google;
+    font-size: 300%;
+    font-weight: bold;
+    float:  left;
+    padding-left: 10px;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color:#28d4ee;
+  }
+ .banner{
+   margin-top: 100px;
+   margin-left: 300px;
+   display:block;
+ }
+ .banner> .banner-image{
+   width: 75%;
+   display: block;
+ }
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  text-align: justify;
+  background-color:#28d4ee;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+}
+.dropdown-content a{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover{
+color: black;
+}
+
+.dropdown:hover
+{
+  color: black;
+}
+
+.box
+{
+  top:25px;
+  height: 200px;
+  background-color: #28d4ee;
+  position:relative;
+
+}
+
+.heading{
+  color: #28d4ee;
+  font-family: google;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 300%
+  font-weight: bold;
+}
+.primary {
+
+  margin-top: 40px;
+  background-color: none;
+  text-align: justify;
+  padding-bottom: 0px;
+  position: relative;
+  display:inline-block;
+  width:80px;
+  margin-left: 0px;
+}
+.grid_4>h2{
+
+ background-color: #28d4ee;
+ text-align: center;
+ position:relative;
+
+}
+.grid_4>p{
+
+  padding-top: 0px;
+  text-align: center;
+  font-family: google;
+  font-size: 120%;
+}
+
+.center{
+
+  float: center;
+}
+
+.grid_6{
+
+  background-color: #28d4ee;
+}
+
+.alpha{
+margin-left: 10px;
+
+}

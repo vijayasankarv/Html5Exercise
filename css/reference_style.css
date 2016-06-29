@@ -1,0 +1,36 @@
+body {
+  margin: 0px 0px;
+}
+​
+.container_12 {
+  background-color: #d3d3d3;
+}
+​
+header {
+  height: 70px;
+  background-color: red;
+}
+​
+nav {
+  height: 40px;
+  background-color: black;
+}
+​
+.img {
+  margin-top: 20px;
+  height: 350px;
+  background-color: blue;
+}
+​
+#hero-img {
+  margin-top: 20px;
+  height: 500px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+​
+footer {
+  height: 70px;
+  background-color: yellow;
+  clear: both;
+}
